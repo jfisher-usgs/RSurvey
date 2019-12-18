@@ -4,8 +4,11 @@
 \alias{FormatDateTime}
 \title{GUI: Build Date-Time String Formats}
 \usage{
-FormatDateTime(sample = as.POSIXct("1991-08-25 20:57:08"), fmt = "",
-  parent = NULL)
+FormatDateTime(
+  sample = as.POSIXct("1991-08-25 20:57:08"),
+  fmt = "",
+  parent = NULL
+)
 }
 \arguments{
 \item{sample}{POSIXt or Date.

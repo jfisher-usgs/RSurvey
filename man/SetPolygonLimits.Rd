@@ -4,8 +4,12 @@
 \alias{SetPolygonLimits}
 \title{GUI: Polygon Limits}
 \usage{
-SetPolygonLimits(poly.names = NULL, poly.data = NULL, poly.crop = NULL,
-  parent = NULL)
+SetPolygonLimits(
+  poly.names = NULL,
+  poly.data = NULL,
+  poly.crop = NULL,
+  parent = NULL
+)
 }
 \arguments{
 \item{poly.names}{character.

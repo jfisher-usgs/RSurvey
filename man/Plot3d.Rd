@@ -4,9 +4,19 @@
 \alias{Plot3d}
 \title{Plot Points and Surface in 3D}
 \usage{
-Plot3d(r = NULL, p = NULL, xlim = NULL, ylim = NULL, zlim = NULL,
-  vasp = NULL, hasp = NULL, cex.pts = 1, n = NULL,
-  color.palette = grDevices::terrain.colors, maxpixels = 5e+05)
+Plot3d(
+  r = NULL,
+  p = NULL,
+  xlim = NULL,
+  ylim = NULL,
+  zlim = NULL,
+  vasp = NULL,
+  hasp = NULL,
+  cex.pts = 1,
+  n = NULL,
+  color.palette = grDevices::terrain.colors,
+  maxpixels = 5e+05
+)
 }
 \arguments{
 \item{r}{RasterLayer.

@@ -4,8 +4,14 @@
 \alias{Data}
 \title{Set or Query Data and Parameters}
 \usage{
-Data(option, value, which.attr = NULL, clear.proj = FALSE,
-  clear.data = FALSE, replace.all = NULL)
+Data(
+  option,
+  value,
+  which.attr = NULL,
+  clear.proj = FALSE,
+  clear.data = FALSE,
+  replace.all = NULL
+)
 }
 \arguments{
 \item{option}{character.

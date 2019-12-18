@@ -4,8 +4,13 @@
 \alias{BuildHistogram}
 \title{GUI: Histogram Input Parameters}
 \usage{
-BuildHistogram(d, var.names = NULL, var.default = 1L,
-  processed.rec = NULL, parent = NULL)
+BuildHistogram(
+  d,
+  var.names = NULL,
+  var.default = 1L,
+  processed.rec = NULL,
+  parent = NULL
+)
 }
 \arguments{
 \item{d}{list, data.frame, matrix, or numeric.

@@ -4,8 +4,13 @@
 \alias{EditText}
 \title{GUI: Edit Text}
 \usage{
-EditText(txt, read.only = FALSE, win.title = "View Text",
-  is.fixed.width.font = FALSE, parent = NULL)
+EditText(
+  txt,
+  read.only = FALSE,
+  win.title = "View Text",
+  is.fixed.width.font = FALSE,
+  parent = NULL
+)
 }
 \arguments{
 \item{txt}{character.
@@ -31,9 +36,9 @@ A graphical user interface (\acronym{GUI}) for viewing and editing text.
 }
 \examples{
 \dontrun{
-  txt <- c("\\"Hills cherish the ambition",
+  txt <- c("\"Hills cherish the ambition",
            "    to turn into partial",
-           "   differential equations\\"",
+           "   differential equations\"",
            "",
            "        -Donald Hall")
   new.txt <- EditText(txt, is.fixed.width.font = TRUE)

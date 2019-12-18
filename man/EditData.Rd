@@ -4,9 +4,16 @@
 \alias{EditData}
 \title{GUI: Data Editor}
 \usage{
-EditData(d, col.names = names(d), row.names = NULL, col.formats = NULL,
-  read.only = FALSE, changelog = NULL, win.title = "Data",
-  parent = NULL)
+EditData(
+  d,
+  col.names = names(d),
+  row.names = NULL,
+  col.formats = NULL,
+  read.only = FALSE,
+  changelog = NULL,
+  win.title = "Data",
+  parent = NULL
+)
 }
 \arguments{
 \item{d}{list, matrix, or data.frame.

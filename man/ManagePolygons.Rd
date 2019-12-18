@@ -4,8 +4,13 @@
 \alias{ManagePolygons}
 \title{GUI: Polygon Manager}
 \usage{
-ManagePolygons(polys = NULL, poly.data = NULL, poly.crop = NULL,
-  crs = sp::CRS(as.character(NA)), parent = NULL)
+ManagePolygons(
+  polys = NULL,
+  poly.data = NULL,
+  poly.crop = NULL,
+  crs = sp::CRS(as.character(NA)),
+  parent = NULL
+)
 }
 \arguments{
 \item{polys}{list.

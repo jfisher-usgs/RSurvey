@@ -5,8 +5,14 @@
 \alias{SetProgressBar}
 \title{GUI: Progress Bar}
 \usage{
-ProgressBar(win.title = "Progress Bar", label = "", maximum = 100,
-  nsteps = NULL, min.nsteps = 10L, parent = NULL)
+ProgressBar(
+  win.title = "Progress Bar",
+  label = "",
+  maximum = 100,
+  nsteps = NULL,
+  min.nsteps = 10L,
+  parent = NULL
+)
 
 SetProgressBar(pb, value, label = NULL, step = NULL)
 }
@@ -60,7 +66,7 @@ A progress bar that shows the status of long-running operations.
 \examples{
 \dontrun{
   maximum <- 10
-  label <- "Estimated time to completion is being calculated\\u2026"
+  label <- "Estimated time to completion is being calculated\u2026"
   pb <- ProgressBar(label = label, maximum = maximum, nsteps = maximum)
 
   for (i in seq_len(maximum)) {

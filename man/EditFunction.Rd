@@ -4,8 +4,15 @@
 \alias{EditFunction}
 \title{GUI: Function Editor}
 \usage{
-EditFunction(cols, index = NULL, fun = NULL, value.length = NULL,
-  value.class = NULL, win.title = "Edit Function", parent = NULL)
+EditFunction(
+  cols,
+  index = NULL,
+  fun = NULL,
+  value.length = NULL,
+  value.class = NULL,
+  win.title = "Edit Function",
+  parent = NULL
+)
 }
 \arguments{
 \item{cols}{list.
@@ -47,9 +54,9 @@ This \acronym{GUI} is appropriate for deriving new variables in a pre-existing d
   d <- list(x = 1:10, y = 10:1)
   Data("data.raw", d)
   cols <- list()
-  cols[[1]] <- list(id = "X", index = 1, fun = "\\"X\\"")
-  cols[[2]] <- list(id = "Y", index = 2, fun = "\\"Y\\"")
-  cols[[3]] <- list(id = "New Variable", fun = "\\"X\\" + \\"Y\\"")
+  cols[[1]] <- list(id = "X", index = 1, fun = "\"X\"")
+  cols[[2]] <- list(id = "Y", index = 2, fun = "\"Y\"")
+  cols[[3]] <- list(id = "New Variable", fun = "\"X\" + \"Y\"")
   EditFunction(cols, index = 3)
 }
 
